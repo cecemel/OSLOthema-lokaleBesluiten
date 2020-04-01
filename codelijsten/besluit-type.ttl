@@ -125,13 +125,6 @@
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Advies samenvoeging eredienstbesturen";
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
 
-<https://data.vlaanderen.be/id/concept/BesluitType/5bedea99-905b-4bae-b0d2-e7755c72a5be> a <http://www.w3.org/2004/02/skos/core#Concept>,
-    <http://www.w3.org/2000/01/rdf-schema#Class>;
-  <http://www.w3.org/2004/02/skos/core#definition> "Besluit van de gemeenteraad over het budget van een autonoom gemeentebedrijf.";
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
-  <http://www.w3.org/2004/02/skos/core#prefLabel> "Besluit over budget AGB";
-  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
-
 <https://data.vlaanderen.be/id/concept/BesluitType/f276bc3b-2d79-4c55-81b8-092e05619676> a <http://www.w3.org/2004/02/skos/core#Concept>,
     <http://www.w3.org/2000/01/rdf-schema#Class>;
   <http://www.w3.org/2004/02/skos/core#definition> "Besluit van de gemeenteraad over de vaststelling van het meerjarenplan of over de vaststelling van de aanpassing van het meerjarenplan van een autonoom gemeentebedrijf.";
