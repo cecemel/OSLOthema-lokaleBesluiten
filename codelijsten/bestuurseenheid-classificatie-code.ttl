@@ -89,3 +89,8 @@ ns4:f9cac08a-13c1-49da-9bcb-f650b0604054
   skos:prefLabel "Centraal bestuur van de eredienst" ;
   skos:topConceptOf ns3:BestuurseenheidClassificatieCode ;
   skos:inScheme ns3:BestuurseenheidClassificatieCode .
+ns4:d90c511e-f827-488c-84ba-432c8f69561c
+  rdf:type skos:Concept ;
+  skos:prefLabel "Vlaamse gemeenschapscommissie" ;
+  skos:topConceptOf ns3:BestuurseenheidClassificatieCode ;
+  skos:inScheme ns3:BestuurseenheidClassificatieCode .
