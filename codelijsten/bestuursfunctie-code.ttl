@@ -174,3 +174,53 @@ ns4:b213c870-c762-4e39-9f78-3abdeda4b64a
   skos:prefLabel "Toegevoegde schepen" ;
   skos:topConceptOf ns3:BestuursfunctieCode ;
   skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/67e6e585166cd97575b3e17ffc430a43>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Voorzitter van het bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/5ac134b9800b81da3c450d6b9605cef2>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Secretaris van het bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/180d13930d6f1a3938e0aa7fa9990002>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Penningmeester van het bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/2e021095727b2464459a63e16ebeafd2>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Bestuurslid van het bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/5972fccd87f864c4ec06bfbd20b5008b>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Bestuurslid (van rechtswege)  van het bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/5960262f753661cf84329f3afa9f7df7>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Voorzitter van het centraal bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/e2af0ea1a6af96cfb698ac39ad985eea>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Secretaris van het centraal bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/f848fa3cc2c5fb7c581a116866293925>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Bestuurslid van het centraal bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/8c91c321ad477c4fc372ee36358d3ed4>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Expert van het centraal bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/6e26e94ea4b127eeb850fb6debe07271>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Vertegenwoordiger aangesteld door het representatief orgaan van het centraal bestuur van de eredienst" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .

@@ -149,3 +149,38 @@ ns4:e14fe683-e061-44a2-b7c8-e10cab4e6ed9
   skos:prefLabel "Leidend Ambtenaar" ;
   skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
   skos:inScheme ns3:BestuursorgaanClassificatieCode .
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/04f65457bf125b2dc59fd71917ac3d08> 
+  rdf:type skos:Concept ;
+  skos:prefLabel "Kerkraad" ;
+  skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
+  skos:inScheme ns3:BestuursorgaanClassificatieCode .
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/0d985699479162198b889f10e4f1a8ce> 
+  rdf:type skos:Concept ;
+  skos:prefLabel "Centraal kerkbestuur" ;
+  skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
+  skos:inScheme ns3:BestuursorgaanClassificatieCode .
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/4393389e99127b68e7fc11936ba92e18>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Centraal bestuur" ;
+  skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
+  skos:inScheme ns3:BestuursorgaanClassificatieCode .
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/90a9ec83cb93b9369bba7ff29d9ce5ce>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Bestuursraad" ;
+  skos:topConceptOf ns3:BestuursorgaanClassificatieCode;
+  skos:inScheme ns3:BestuursorgaanClassificatieCode .
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/a0701624aefb115b7eda2ff39139c2dd>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Kathedrale kerkraad" ;
+  skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
+  skos:inScheme ns3:BestuursorgaanClassificatieCode .
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/af811edba97c6ec34874d0830cbb1183>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Kerkfabriekraad" ;
+  skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
+  skos:inScheme ns3:BestuursorgaanClassificatieCode .
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/b475fa47e17a8a05ae04a9e1fb9c9258>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Comité" ;
+  skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
+  skos:inScheme ns3:BestuursorgaanClassificatieCode .
