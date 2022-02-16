@@ -41,6 +41,13 @@
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Verslag lokale betrokkenheid eredienstbesturen";
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
 
+<https://data.vlaanderen.be/id/concept/BesluitDocumentType/365d561c-57c7-4523-af04-6e3c91426c56> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Tabel met een per mandataris geïndividualiseerd overzicht van de vergoedingen en de presentiegelden.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Overzicht vergoedingen en presentiegelden";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
+
 <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
   <http://www.w3.org/2004/02/skos/core#definition> "Het type van het document. Bijvoorbeeld: besluitenlijst, agenda,....";
   <http://www.w3.org/2004/02/skos/core#prefLabel> "besluit document type" .
