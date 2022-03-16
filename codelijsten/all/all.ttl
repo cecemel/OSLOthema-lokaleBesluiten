@@ -519,10 +519,44 @@ gemeentebedrijf.""";
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Authentieke akte van de statuten (art. 477 DLB)" ;
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
 
+<https://data.vlaanderen.be/id/concept/BesluitType/b0fcc0c3-bb33-427f-8da2-4ef3833c9060> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+    <http://www.w3.org/2004/02/skos/core#definition> "Besluit van de gemeenteraad tot voorlopige of definitieve vaststelling van het gemeentelijk beleidskader (art. 6, §2 Gemeentewegendecreet).";
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vaststelling gemeentelijk beleidskader (gemeentewegen)";
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitType/f1fd8f88-95b0-4085-b766-008b5867d992>	a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+    <http://www.w3.org/2004/02/skos/core#definition> "Besluit van de gemeenteraad tot voorlopige of definitieve vaststelling van het gemeentelijk rooilijnplan (art. 17 Gemeentewegendecreet).";
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vaststelling gemeenteweg";
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitType/4511f992-2b52-42fe-9cb6-feae6241ad26> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Voorstellen van de raad van bestuur van de dienstverlenende en opdrachthoudende verenigingen ter vrijwaring van de continuïteit.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Saneringsplan - Plan vrijwaring continuïteit (art. 457 DLB)" ;
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitType/b04bc642-c892-4aae-ac1f-f6ff21362704> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "De algemene vergadering stelt een code van goed bestuur vast.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Code van goed bestuur" ;
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitType/cb361927-1aab-4016-bd8a-1a84841391ba> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "De gemeenteraad of districtsraad kan een collectieve constructieve motie van wantrouwen aannemen.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Collectieve motie van wantrouwen" ;
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
 <https://data.vlaanderen.be/id/conceptscheme/BesluitType> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
   <http://www.w3.org/2004/02/skos/core#definition> "Het type van de rechtsgrond. Bijvoorbeeld: reglement, wet, voorstel.";
-  <http://www.w3.org/2004/02/skos/core#prefLabel> "besluit type" .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "besluit type" .@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns2: <http://mu.semte.ch/vocabularies/core/> .
 @prefix ns3: <http://data.vlaanderen.be/id/conceptscheme/> .
@@ -1118,10 +1152,16 @@ ns1:KandidatenlijstLijsttype
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Verslag lokale betrokkenheid eredienstbesturen";
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
 
+<https://data.vlaanderen.be/id/concept/BesluitDocumentType/365d561c-57c7-4523-af04-6e3c91426c56> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Tabel met een per mandataris geïndividualiseerd overzicht van de vergoedingen en de presentiegelden.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Overzicht vergoedingen en presentiegelden";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
+
 <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
   <http://www.w3.org/2004/02/skos/core#definition> "Het type van het document. Bijvoorbeeld: besluitenlijst, agenda,....";
-  <http://www.w3.org/2004/02/skos/core#prefLabel> "besluit document type" .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "besluit document type" .@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ns1: <http://data.vlaanderen.be/id/concept/Fractietype/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns3: <http://mu.semte.ch/vocabularies/core/> .
