@@ -1,0 +1,18 @@
+[
+  {
+    "name": "besluit-mobiliteit-ap.json",
+    "type": "ap",
+    "eap": "OSLO-Besluit-Mobiliteit-AP.eap",
+    "diagram": "",
+    "template": "besluit-mobiliteit-ap.j2",
+    "title": "Besluit Mobiliteit - Applicatieprofiel",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "publication-date": "TBD",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "MijnKolom",
+    "site": "site-skeleton/besluit-mobiliteit-ap",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
+  }
+]
