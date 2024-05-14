@@ -44,6 +44,11 @@
   skos:prefLabel "Burgemeester" ;
   skos:topConceptOf ns3:BestuursfunctieCode ;
   skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/7b038cc40bba10bec833ecfe6f15bc7a>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Aangewezen Burgemeester" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
 <http://data.vlaanderen.be/id/concept/BestuursfunctieCode/5ab0e9b8a3b2ca7c5e000014>
   rdf:type skos:Concept ;
   skos:prefLabel "Schepen" ;
