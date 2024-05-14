@@ -712,6 +712,11 @@ ns4:d90c511e-f827-488c-84ba-432c8f69561c
   skos:prefLabel "Burgemeester" ;
   skos:topConceptOf ns3:BestuursfunctieCode ;
   skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/7b038cc40bba10bec833ecfe6f15bc7a>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Aangewezen Burgemeester" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
 <http://data.vlaanderen.be/id/concept/BestuursfunctieCode/5ab0e9b8a3b2ca7c5e000014>
   rdf:type skos:Concept ;
   skos:prefLabel "Schepen" ;
@@ -1053,12 +1058,12 @@ ns4:e14fe683-e061-44a2-b7c8-e10cab4e6ed9
   skos:prefLabel "Collegelid" ;
   skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
   skos:inScheme ns3:BestuursorgaanClassificatieCode .
-<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/04f65457bf125b2dc59fd71917ac3d08> 
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/04f65457bf125b2dc59fd71917ac3d08>
   rdf:type skos:Concept ;
   skos:prefLabel "Kerkraad" ;
   skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
   skos:inScheme ns3:BestuursorgaanClassificatieCode .
-<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/0d985699479162198b889f10e4f1a8ce> 
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/0d985699479162198b889f10e4f1a8ce>
   rdf:type skos:Concept ;
   skos:prefLabel "Centraal kerkbestuur" ;
   skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
