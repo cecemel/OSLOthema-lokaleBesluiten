@@ -738,3 +738,11 @@
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Niet-bindend advies op statuten";
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitType/b4c828e4-bcb8-46ff-8abf-5fde227d2459>
+  a <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2002/07/owl#deprecated> false;
+  <http://www.w3.org/2004/02/skos/core#definition> "Besluit van de gemeenteraad tot vaststelling van de leden van de bestuursorganen (installatievergadering en mandaatwissels)";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Samenstelling bestuursorganen";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
