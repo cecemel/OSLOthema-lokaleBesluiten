@@ -753,4 +753,5 @@
   <http://www.w3.org/2004/02/skos/core#definition> "Aanduiding en eedaflegging van de aangewezen burgemeester.";
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Aanduiding en eedaflegging van de aangewezen burgemeester";
+    <http://purl.org/dc/terms/replaces>  <https://data.vlaanderen.be/id/concept/BesluitDocumentType/a48f2ded-78a5-45e5-a5d8-077814cec39f>;
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
