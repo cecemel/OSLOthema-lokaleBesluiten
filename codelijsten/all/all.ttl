@@ -541,7 +541,6 @@
   <http://www.w3.org/2004/02/skos/core#broader> <https://data.vlaanderen.be/id/concept/BesluitType/f56c645d-b8e1-4066-813d-e213f5bc529f>;
   <http://www.w3.org/2004/02/skos/core#definition> "Besluit tot vaststelling van de aanpassing van het meerjarenplan.";
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
-  <http://www.w3.org/2004/02/skos/core#broader> <https://data.vlaanderen.be/id/concept/BesluitType/f56c645d-b8e1-4066-813d-e213f5bc529f> .
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Vaststelling van meerjarenplanaanpassing" .
 
 <https://data.vlaanderen.be/id/concept/BesluitType/f8c070bd-96e4-43a1-8c6e-532bcd771251>
@@ -739,6 +738,24 @@
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Niet-bindend advies op statuten";
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitType/b4c828e4-bcb8-46ff-8abf-5fde227d2459>
+  a <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2002/07/owl#deprecated> false;
+  <http://www.w3.org/2004/02/skos/core#definition> "Besluit van de gemeenteraad tot vaststelling van de leden van de bestuursorganen (installatievergadering en mandaatwissels)";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Samenstelling bestuursorganen";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitType/7927f4f4-ad4c-4460-9207-2a4b5d21a9d7>
+  a <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2002/07/owl#deprecated> false;
+  <http://www.w3.org/2004/02/skos/core#definition> "Aanduiding en eedaflegging van de aangewezen burgemeester.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Aanduiding en eedaflegging van de aangewezen burgemeester";
+    <http://purl.org/dc/terms/replaces>  <https://data.vlaanderen.be/id/concept/BesluitDocumentType/a48f2ded-78a5-45e5-a5d8-077814cec39f>;
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns2: <http://mu.semte.ch/vocabularies/core/> .
@@ -1297,7 +1314,6 @@ ns1:KandidatenlijstLijsttype
   rdf:type skos:ConceptScheme ;
   ns4:modified "2018-03-21"^^xsd:date ;
   skos:prefLabel "Kandidatenlijst lijsttype" .
-
 <https://data.vlaanderen.be/id/concept/BesluitDocumentType/0ee460b1-5ef4-4d4a-b5e1-e2d7c1d5086e> a <http://www.w3.org/2004/02/skos/core#Concept>,
     <http://www.w3.org/2000/01/rdf-schema#Class>;
   <http://www.w3.org/2004/02/skos/core#definition> "Andere documenten dan budget, jaarrekening en meerjarenplan(aanpassing) die als onderdeel of bijlage bij een beleidsrapport van de beleids- en beheerscyclus verplicht, vrijwillig of op vraag worden aangeleverd.";
@@ -1370,7 +1386,29 @@ ns1:KandidatenlijstLijsttype
 
 <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
   <http://www.w3.org/2004/02/skos/core#definition> "Het type van het document. Bijvoorbeeld: besluitenlijst, agenda,....";
-  <http://www.w3.org/2004/02/skos/core#prefLabel> "besluit document type" .@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "besluit document type" .
+
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+<https://data.vlaanderen.be/id/concept/BesluitDocumentType/a48f2ded-78a5-45e5-a5d8-077814cec39f>
+    a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://www.w3.org/2002/07/owl#deprecated> true;
+    skos:definition "[BUITEN GEBRUIK] Aanduiding en eedaflegging van de aangewezen burgemeester." ;
+    skos:prefLabel "[BUITEN GEBRUIK] Aanduiding en eedaflegging van de aangewezen burgemeester." ;
+    skos:historyNote """
+      (D.d. 2024-11-13)
+      This document type has been replaced by <https://data.vlaanderen.be/id/concept/BesluitType/7927f4f4-ad4c-4460-9207-2a4b5d21a9d7>.
+      This document has wrongfully been linked to the list of 'BesluitDocumentType', where in fact it should be the list of 'BesluitType'.
+      We've made the choice to retract the associated URI in favor of a new URI.
+      This because we foresee that, over time, the URI itself might bring confusion if we'd simply move to another conceptScheme while still containing the word 'BesluitDocumentType' and not 'BesluitType'.
+      As we expect the URI hasn't been used yet, we expect the impact to be minimal.
+    """;
+    <http://purl.org/dc/terms/isReplacedBy> <https://data.vlaanderen.be/id/concept/BesluitType/7927f4f4-ad4c-4460-9207-2a4b5d21a9d7>;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ns1: <http://data.vlaanderen.be/id/concept/Fractietype/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns3: <http://mu.semte.ch/vocabularies/core/> .
