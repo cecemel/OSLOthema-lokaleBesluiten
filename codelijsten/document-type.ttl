@@ -91,3 +91,4 @@
     <http://purl.org/dc/terms/isReplacedBy> <https://data.vlaanderen.be/id/concept/BesluitType/7927f4f4-ad4c-4460-9207-2a4b5d21a9d7>;
     skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
+

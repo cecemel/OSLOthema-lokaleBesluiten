@@ -1406,7 +1406,9 @@ ns1:KandidatenlijstLijsttype
     """;
     <http://purl.org/dc/terms/isReplacedBy> <https://data.vlaanderen.be/id/concept/BesluitType/7927f4f4-ad4c-4460-9207-2a4b5d21a9d7>;
     skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ns1: <http://data.vlaanderen.be/id/concept/Fractietype/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns3: <http://mu.semte.ch/vocabularies/core/> .
